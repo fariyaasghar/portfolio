@@ -1,4 +1,3 @@
-
 /* Contact Form Styles */
 form {
   max-width: 600px;
@@ -82,4 +81,59 @@ form {
   border-radius: 8px;
   margin: 1rem 0;
   border: 1px solid #f5c6cb;
+}
+
+
+/* --- Custom Project Card Styles for Chirpy Theme --- */
+
+
+/* This targets the main grid container from your index.html */
+#post-list.row {
+  /* THE FIX: This forces all items in the grid to stretch to the same height */
+  align-items: stretch;
+}
+
+/* This targets the individual card */
+#post-list .card {
+  height: 100%; /* Make the card fill the entire height of its grid cell */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--card-border-color);
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+
+#post-list .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* This targets the card image */
+#post-list .card .card-img-top {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* This targets the main body of the card */
+#post-list .card .card-body {
+  flex-grow: 1; /* This tells the body to grow and fill remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+/* This targets the summary text */
+#post-list .card .card-text {
+    flex-grow: 1; /* Pushes the tags/buttons to the bottom */
+}
+
+/* --- Custom Styles for Clickable Cards --- */
+
+a.card-link-wrapper, a.card-link-wrapper:hover {
+  text-decoration: none; /* Remove underlines from the card link */
+  color: inherit; /* Make the text inside inherit its color */
+}
+
+.card-footer {
+  background-color: transparent !important; /* Make the footer background invisible */
+  padding-top: 0;
 }

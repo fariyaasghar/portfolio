@@ -35,6 +35,11 @@ collections:
     output: true
     sort_by: order
 
+# --- Sass/SCSS Settings ---
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # --- Default settings ---
 # This tells Jekyll how to handle your case studies (_posts) and your pages (_tabs)
 defaults:

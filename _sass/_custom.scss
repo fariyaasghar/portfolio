@@ -1,0 +1,36 @@
+/* --- 1. Custom Background Image --- */
+
+/* We apply the background image to BOTH the light and dark modes */
+/* by targeting the theme's specific data-mode attribute. */
+
+html[data-mode="light"] body,
+html[data-mode="dark"] body {
+  background-image: url('/portfolio/assets/images/background.png'); /* Use the full, absolute path */
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+  /* Optional: This helps blend the image with the theme's background color */
+  /* You can experiment with 'overlay', 'multiply', or remove this line */
+  background-blend-mode: overlay;
+}
+
+/* --- Definitive Custom Project Card Styles --- */
+
+/* This targets the main grid container from your index.html */
+#post-list.row {
+  align-items: stretch; /* Forces all cards in a row to be the same height */
+}
+
+/* This targets the individual card */
+#post-list .card {
+  height: 100%; /* Make the card fill the entire height of its grid cell */
+}
+
+/* This is the most important part for your images */
+#post-list .card .card-img-top {
+  /* Set a fixed, consistent aspect ratio for all thumbnails */
+  aspect-ratio: 16 / 9;
+
+  /* Tell the image how to fit inside this container without stretching */
+  object-fit: cover; /* This crops the image to fit. */
+}

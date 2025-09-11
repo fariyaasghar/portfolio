@@ -2,14 +2,13 @@
 layout: post
 title: "Case Study: NYC Citi Bike Strategic Dashboard"
 date: 2025-08-22
-categories: [Data Analysis, Python, Streamlit]
-tags: [Python, Pandas, Plotly, Kepler.gl, Streamlit]
+excerpt: "A data-driven analysis of over 30 million trip records to provide actionable recommendations for fleet management and service expansion."
 image:
-  path: /assets/images/thumbnails/citi-bike-dashboard.png # Use a descriptive image name
+  path: /assets/images/thumbnails/citi-bike-thumbnail.png
   alt: A dashboard showing Citi Bike usage data.
----
+tags: [Python, Pandas, Plotly, Kepler.gl, Streamlit]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
-demo_link: https://nyc-citi-bike-dashboard.streamlit.app/ # <-- EDIT THIS with your live URL
+demo_link: https://nyc-citi-bike-dashboard.streamlit.app/
 ---
 
 ### The Challenge
