@@ -1,17 +1,18 @@
-<div class="card h-100 shadow-sm">
+<div class="card h-100 shadow-sm" style="display: flex; flex-direction: column;">
   
-  <!-- This single <a> tag now correctly wraps the image and the card body -->
-  <a href="{{ site.baseurl }}{{ post.url }}" class="card-link-wrapper">
+  <!-- This is the main clickable area -->
+  <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; flex-grow: 1;">
     
     {% if post.image %}
-      <!-- This image path MANUALLY builds the correct URL -->
-      <img src="{{ site.baseurl }}{{ post.image.path }}" class="card-img-top" alt="{{ post.image.alt }}">
+      <!-- This image tag has all styles applied directly to it -->
+      <img src="{{ site.baseurl }}{{ post.image.path }}" 
+           alt="{{ post.image.alt }}" 
+           style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-top-left-radius: 12px; border-top-right-radius: 12px;">
     {% endif %}
 
-    <!-- The card body with the text is also INSIDE the main link -->
-    <div class="card-body d-flex flex-column">
+    <div class="card-body" style="flex-grow: 1; display: flex; flex-direction: column;">
       <h5 class="card-title">{{ post.title }}</h5>
-      <p class="card-text text-muted flex-grow-1">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      <p class="card-text text-muted" style="flex-grow: 1;">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
     </div>
 
   </a> <!-- The main link wrapper ends here -->
