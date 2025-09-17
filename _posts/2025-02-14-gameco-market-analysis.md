@@ -4,7 +4,7 @@ title: "Case Study: GameCo. Video Game Market Analysis"
 date: 2025-02-14
 excerpt: "A deep-dive analysis of global video game sales to provide data-driven recommendations for GameCo.'s 2017 marketing strategy."
 image:
-  path: assets/images/thumbnails/gameco-thumbnail.png
+  path: /assets/images/thumbnails/gameco-thumbnail.png
   alt: A chart showing global video game sales data.
   popup: false
 tags: [Excel, Business Intelligence, Data Visualization, Market Analysis]

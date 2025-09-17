@@ -4,7 +4,7 @@ title: "Case Study: Strategic Analysis of the Amsterdam Airbnb Market"
 date: 2025-06-22
 excerpt: "An end-to-end data science workflow using Python and Tableau to analyze the Amsterdam Airbnb market, from data wrangling to predictive modeling and strategic recommendation."
 image:
-  path: assets/images/thumbnails/airbnb-thumbnail.png
+  path: /assets/images/thumbnails/airbnb-thumbnail.png
   alt: A map of Amsterdam showing Airbnb **Value Zones++.
   popup: false
 tags: [Python, Tableau, Scikit-learn, GeoPandas, Machine Learning, Strategy]

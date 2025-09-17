@@ -4,7 +4,7 @@ title: "Case Study: Visualizing 20th Century Geopolitical Networks"
 date: 2025-07-22
 excerpt: "A demonstration of advanced data skills, using web scraping and Natural Language Processing (NLP) to analyze unstructured text and build a network visualization of historical country interrelations."
 image:
-  path: assets/images/thumbnails/20th-century-thumbnail.png
+  path: /assets/images/thumbnails/20th-century-thumbnail.png
   alt: A network graph of country relationships.
   popup: false
 tags: [Python, NLP (spaCy), NetworkX, Pyvis, Web Scraping]

@@ -4,7 +4,7 @@ title: "Case Study: Instacart Grocery Basket Analysis"
 date: 2025-05-30
 excerpt: "A Python-based analysis of 32 million Instacart orders to uncover customer purchasing patterns and develop a core customer persona for targeted marketing."
 image:
-  path: assets/images/thumbnails/instacart-thumbnail.png
+  path: /assets/images/thumbnails/instacart-thumbnail.png
   alt: A chart showing customer purchasing data.
   popup: false
 tags: [Python, Pandas, Matplotlib, Seaborn, Customer Segmentation, Data Wrangling]
