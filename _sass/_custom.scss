@@ -1,74 +1,244 @@
 /* ---
-This is the single, definitive custom stylesheet for Fariya Asghar's Portfolio.
+This is the minimal custom stylesheet to fix the project grid and thumbnails.
 --- */
 
-/* --- 1. Project Card Grid & Alignment --- */
-
-/* Makes all cards in a row stretch to be the same height */
-#post-list.row, .row.g-4 {
+/* This rule makes all cards in a single row stretch to be the same height */
+#post-list.row, .row {
   align-items: stretch;
 }
-#post-list .card, .card.h-100 {
+#post-list .card, .card {
   height: 100%;
 }
 
-/* Uniform thumbnail image size & dark mode fix */
+/* This rule forces all thumbnail images to have a uniform 16:9 aspect ratio */
 .card-img-top {
   aspect-ratio: 16 / 9;
-  object-fit: cover;
-  filter: none !important;
+  object-fit: cover; /* This crops the image to fit, preventing distortion */
+  filter: none !important; /* Fixes the "white image" bug in dark mode */
 }
 
-/* --- 2. THE DEFINITIVE HOVER, GLOW, & CLICKABLE CARD FIX --- */
-
-.card {
-  /* This makes the change smooth */
-  transition: all 0.3s ease-in-out;
-  border-radius: 12px;
-  border: 1px solid var(--card-border-color);
-  overflow: hidden; /* Important for the hover effect */
-}
-
-/* This is the hover state for the entire card */
-.card:hover {
-  /* The "Pop-up" (Lift) Effect */
-  transform: translateY(-6px);
-  
-  /* The "Glowing Border" Effect */
-  box-shadow: 0 0 20px 4px rgba(var(--link-color-rgb), 0.5);
-  border-color: var(--link-color);
-}
-
-/* --- 3. THE DEFINITIVE CLICKABLE AREA & LINK STYLING --- */
-
-a.card-link-wrapper, a.card-link-wrapper:hover {
-  /* These rules make the main wrapper link invisible and cover the whole card */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1; /* Places the link behind the buttons but in front of the content */
-  text-decoration: none;
-}
-
-/* This makes the card title still look like a link */
-.card-title a {
-  color: var(--link-color);
-  text-decoration: underline;
-}
-
-/* This styles the footer and buttons to ensure they are on top and clickable */
-.card-footer {
-  position: relative;
-  z-index: 2; /* Places the footer in front of the main card link */
-  background-color: transparent !important;
-  border-top: none !important;
-}
-
-/* --- 4. Definitive Button Readability Fix --- */
+/* This rule fixes the button readability in dark mode */
 html[data-mode="dark"] .btn-secondary {
   color: var(--btn-text-color) !important;
   background-color: var(--btn-bg) !important;
   border-color: var(--btn-border-color) !important;
+}
+/* --- Unified Project Card Hover Effect --- */
+
+/* Project grid container */
+#post-list.row {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Unified card styling */
+#post-list .card {
+  height: 100%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--card-bg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+}
+
+/* Card image - always visible but transforms on hover */
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: all 0.4s ease;
+  border-radius: 16px 16px 0 0;
+}
+
+/* Card content container */
+.card-content {
+  padding: 1.5rem;
+  position: relative;
+  transition: all 0.4s ease;
+  min-height: 120px;
+}
+
+/* Default state: Show only basic info */
+.card-default-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.4s ease;
+}
+
+.card-default-content .card-title {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.card-default-content .card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-default-content .tag {
+  background: var(--button-bg);
+  color: var(--button-text);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid var(--button-border);
+}
+
+/* Hover content - hidden by default */
+.card-hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--card-bg);
+  padding: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-hover-content .card-title {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card-hover-content .card-description {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.card-hover-buttons {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.card-hover-buttons .btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: var(--link-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline {
+  background: transparent;
+  border-color: var(--link-color);
+  color: var(--link-color);
+}
+
+.btn-outline:hover {
+  background: var(--link-color);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Hover effects on entire card */
+#post-list .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+#post-list .card:hover .card-img-top {
+  transform: scale(1.05);
+  filter: brightness(0.9);
+}
+
+#post-list .card:hover .card-default-content {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+#post-list .card:hover .card-hover-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Dark mode adjustments */
+html[data-mode="dark"] #post-list .card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+html[data-mode="dark"] #post-list .card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #post-list.row {
+    gap: 1.5rem;
+  }
+  
+  .card-img-top {
+    height: 180px;
+  }
+  
+  .card-content {
+    padding: 1.2rem;
+  }
+  
+  .card-hover-content {
+    padding: 1.2rem;
+  }
+  
+  .card-hover-buttons {
+    flex-direction: column;
+  }
+  
+  .card-hover-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Grid layout */
+#post-list .col {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  #post-list .col {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 992px) {
+  #post-list .col {
+    flex: 0 0 calc(33.333% - 1.33rem);
+    max-width: calc(33.333% - 1.33rem);
+  }
 }

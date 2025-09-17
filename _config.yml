@@ -41,3 +41,9 @@ defaults:
     values:
       layout: page
       permalink: /:title/ # This creates clean URLs like /projects/
+# Custom CSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+

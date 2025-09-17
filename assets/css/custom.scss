@@ -1,0 +1,75 @@
+---
+# This front matter is required by Jekyll to process the file.
+---
+
+/* --- Definitive Custom Project Card Styles --- */
+
+#post-list .card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--card-bg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+}
+
+#post-list .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+#post-list .card .card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: all 0.4s ease;
+  border-radius: 16px 16px 0 0;
+}
+
+#post-list .card:hover .card-img-top {
+  transform: scale(1.05);
+  filter: brightness(0.9);
+}
+
+#post-list .card .card-content {
+  padding: 1.5rem;
+  position: relative;
+  transition: all 0.4s ease;
+  min-height: 120px;
+}
+
+#post-list .card .card-default-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.4s ease;
+}
+
+#post-list .card:hover .card-default-content {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+#post-list .card .card-hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--card-bg);
+  padding: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#post-list .card:hover .card-hover-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ... (and any other styles you need) ... */

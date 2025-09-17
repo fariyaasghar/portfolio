@@ -3,23 +3,19 @@ layout: page
 ---
 
 <h1>Welcome to My Data Analytics Portfolio</h1>
-
 <p class="fs-5">
   I'm <strong>Fariya Asghar</strong>, a data analyst with a strong foundation in financial analysis and risk assessment, now specializing in transforming complex datasets into actionable business insights.
 </p>
 
 <div class="mb-5">
-  <a href="/projects/" class="btn btn-primary fs-5 me-2">View All Projects</a>
-  <a href="/contact/" class="btn btn-secondary fs-5">Get in Touch</a>
+  <a href="{{ '/projects/' | relative_url }}" class="btn btn-primary fs-5 me-2">View All Projects</a>
+  <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary fs-5">Get in Touch</a>
 </div>
 
 <hr>
-
 <h2 class="mt-5 mb-4 text-center">Featured Projects</h2>
-
-<!-- This is the responsive grid that creates the side-by-side layout -->
 <div id="post-list" class="row row-cols-1 row-cols-md-2 g-4">
-  {% for post in site.posts limit: 2 %} <!-- You can change the limit to 2 -->
+  {% for post in site.posts limit: 2 %}
     <div class="col">
       {% include post-card.html %}
     </div>

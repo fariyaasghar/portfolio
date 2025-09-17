@@ -2,7 +2,7 @@
 title: About Me
 icon: fas fa-user-circle
 order: 1
-layout: page
+pinned: true
 ---
 
 <!-- This is the custom "hero" section for your introduction -->
