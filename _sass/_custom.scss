@@ -2,40 +2,73 @@
 This is the single, definitive custom stylesheet for Fariya Asghar's Portfolio.
 --- */
 
-/* --- 1. Project Card Grid & Alignment --- */
-#post-list.row, .row {
-  align-items: stretch;
+/* --- 1. Global Page Layout & Alignment Fixes --- */
+.main-content > h1:first-child,
+.main-content > h2:first-child {
+  margin-top: 0 !important;
 }
-#post-list .card, .card {
-  height: 100%;
+h1.page-title {
+  margin-bottom: 2.5rem !important;
 }
 
-/* --- 2. The Definitive Image Fix --- */
+/* --- 2. THE DEFINITIVE PROJECT CARD STYLES --- */
+
+/* This rule makes all cards in a single row stretch to be the same height */
+#post-list.row, .row.g-4 {
+  align-items: stretch;
+}
+
+/* The main card container */
+.card {
+  height: 100%;
+  border-radius: 12px !important;
+  border: 1px solid var(--card-border-color);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden; /* Important for the image corners */
+}
+
+/* --- 3. THE GLOWING BORDER & POP-UP EFFECT ON HOVER --- */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px 4px rgba(var(--link-color-rgb), 0.5);
+  border-color: var(--link-color);
+}
+
+/* --- 4. The Definitive Image Fix --- */
 .card-img-top {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   filter: none !important; /* Fixes white image in dark mode */
 }
 
-/* --- 3. The Definitive Hover, Glow, & Clickable Card Fix --- */
-.card {
-  transition: all 0.3s ease;
-}
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 15px 1px rgba(var(--link-color-rgb), 0.5);
-  border-color: var(--link-color);
-}
+/* --- 5. The Definitive Clickable Card & Link Styling --- */
 a.card-link-wrapper, a.card-link-wrapper:hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Places the link behind the buttons */
   text-decoration: none;
-  color: inherit;
 }
+
+/* This makes the card title still look like a clickable link */
+.card-title a {
+  color: var(--link-color);
+  text-decoration: underline;
+  position: relative; /* Ensures it appears on top of the wrapper */
+  z-index: 2;
+}
+
+/* This styles the footer and buttons to ensure they are on top and clickable */
 .card-footer {
+  position: relative;
+  z-index: 2; /* Places the footer in front of the main card link */
   background-color: transparent !important;
   border-top: none !important;
 }
 
-/* --- 4. Definitive Button Readability Fix --- */
+/* --- 6. Definitive Button Readability Fix --- */
 html[data-mode="dark"] .btn-secondary {
   color: var(--btn-text-color) !important;
   background-color: var(--btn-bg) !important;

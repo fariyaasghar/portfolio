@@ -4,8 +4,9 @@ title: "Case Study: Public Health Analysis of Influenza Trends"
 date: 2025-04-07
 excerpt: "An analysis of CDC and Census data to build a data-driven blueprint for seasonal influenza preparedness, culminating in an interactive Tableau dashboard."
 image:
-  path: /assets/images/thumbnails/influenza-thumbnail.png
+  path: assets/images/thumbnails/influenza-thumbnail.png
   alt: A Tableau dashboard showing public health data.
+  popup: false
 tags: [Tableau, Excel, Data Integration, Statistical Analysis, Business Intelligence]
 demo_link: https://public.tableau.com/shared/F6KRD2BBB?:display_count=n&:origin=viz_share_link
 ---
