@@ -46,6 +46,5 @@ layout: page
       <input type="text" name="_gotcha" style="display:none" />
       <button type="submit" class="btn btn-primary mt-3">Send Message</button>
     </form>
-    {:.html}
   </div>
 </div>
