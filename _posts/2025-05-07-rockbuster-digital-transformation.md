@@ -6,7 +6,6 @@ excerpt: "An SQL-driven analysis of a large PostgreSQL database to guide a tradi
 image:
   path: /assets/images/thumbnails/rockbuster-thumbnail.png
   alt: A chart showing regional revenue data for a movie rental company.
-  popup: false
 tags: [SQL, PostgreSQL, Tableau, Excel, Business Intelligence, Strategy]
 github_link: https://github.com/fariyaasghar/RockbusterStealthLLC.OnlineLaunchStrategy
 demo_link: https://public.tableau.com/shared/ZWPRKXQ92?:display_count=n&:origin=viz_share_link

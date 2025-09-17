@@ -6,7 +6,6 @@ excerpt: "Developed a predictive model using Python and scikit-learn to proactiv
 image:
   path: /assets/images/thumbnails/churn-thumbnail.png
   alt: A decision tree diagram for predicting customer churn.
-  popup: false
 tags: [Machine Learning, Python, scikit-learn, Predictive Analytics, Excel, Strategy]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
 demo_link: https://nyc-citi-bike-dashboard.streamlit.app/

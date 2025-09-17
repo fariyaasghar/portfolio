@@ -6,7 +6,6 @@ excerpt: "A Python-based analysis of 32 million Instacart orders to uncover cust
 image:
   path: /assets/images/thumbnails/instacart-thumbnail.png
   alt: A chart showing customer purchasing data.
-  popup: false
 tags: [Python, Pandas, Matplotlib, Seaborn, Customer Segmentation, Data Wrangling]
 github_link: https://github.com/fariyaasghar/InstacartGroceryBasketAnalysis
 ---
