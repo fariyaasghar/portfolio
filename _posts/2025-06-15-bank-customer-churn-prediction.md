@@ -4,7 +4,7 @@ title: "Case Study: Predicting Bank Customer Churn with Machine Learning"
 date: 2025-06-15
 excerpt: "Developed a predictive model using Python and scikit-learn to proactively identify high-risk bank customers and guide targeted retention strategies."
 image:
-  path: /assets/images/thumbnails/churn-thumbnail.png
+  path: assets/images/thumbnails/churn-thumbnail.png
   alt: A decision tree diagram for predicting customer churn.
 tags: [Machine Learning, Python, scikit-learn, Predictive Analytics, Excel, Strategy]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard

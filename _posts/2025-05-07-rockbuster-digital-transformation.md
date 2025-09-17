@@ -4,7 +4,7 @@ title: "Case Study: Rockbuster Movie Rentals' Digital Transformation"
 date: 2025-05-07
 excerpt: "An SQL-driven analysis of a large PostgreSQL database to guide a traditional company's pivot to an online video rental service."
 image:
-  path: /assets/images/thumbnails/rockbuster-thumbnail.png
+  path: assets/images/thumbnails/rockbuster-thumbnail.png
   alt: A chart showing regional revenue data for a movie rental company.
 tags: [SQL, PostgreSQL, Tableau, Excel, Business Intelligence, Strategy]
 github_link: https://github.com/fariyaasghar/RockbusterStealthLLC.OnlineLaunchStrategy
