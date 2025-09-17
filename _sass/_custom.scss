@@ -1,36 +1,66 @@
-/* --- 1. Custom Background Image --- */
+/* ---
+This is the single, definitive custom stylesheet for Fariya Asghar's Portfolio.
+--- */
 
-/* We apply the background image to BOTH the light and dark modes */
-/* by targeting the theme's specific data-mode attribute. */
-
-html[data-mode="light"] body,
-html[data-mode="dark"] body {
-  background-image: url('/portfolio/assets/images/background.png'); /* Use the full, absolute path */
-  background-repeat: repeat;
-  background-attachment: fixed;
-
-  /* Optional: This helps blend the image with the theme's background color */
-  /* You can experiment with 'overlay', 'multiply', or remove this line */
-  background-blend-mode: overlay;
+/* --- 1. Project Card Grid & Alignment --- */
+#post-list.row, .row {
+  align-items: stretch;
+}
+#post-list .card, .card {
+  height: 100%;
 }
 
-/* --- Definitive Custom Project Card Styles --- */
-
-/* This targets the main grid container from your index.html */
-#post-list.row {
-  align-items: stretch; /* Forces all cards in a row to be the same height */
-}
-
-/* This targets the individual card */
-#post-list .card {
-  height: 100%; /* Make the card fill the entire height of its grid cell */
-}
-
-/* This is the most important part for your images */
-#post-list .card .card-img-top {
-  /* Set a fixed, consistent aspect ratio for all thumbnails */
+/* --- 2. The Definitive Image Fix --- */
+.card-img-top {
   aspect-ratio: 16 / 9;
+  object-fit: cover;
+  filter: none !important; /* Fixes white image in dark mode */
+}
 
-  /* Tell the image how to fit inside this container without stretching */
-  object-fit: cover; /* This crops the image to fit. */
+/* --- 3. The Definitive Hover, Glow, & Clickable Card Fix --- */
+.card {
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px 1px rgba(var(--link-color-rgb), 0.5);
+  border-color: var(--link-color);
+}
+a.card-link-wrapper, a.card-link-wrapper:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.card-footer {
+  background-color: transparent !important;
+  border-top: none !important;
+}
+
+/* --- 4. Definitive Button Readability Fix --- */
+html[data-mode="dark"] .btn-secondary {
+  color: var(--btn-text-color) !important;
+  background-color: var(--btn-bg) !important;
+  border-color: var(--btn-border-color) !important;
+}
+
+/* --- 5. Theme-Aware Contact Form --- */
+form.contact-form {
+  background: var(--card-bg);
+  border-radius: 12px;
+  border: 1px solid var(--card-border-color);
+  padding: 2rem;
+}
+form.contact-form .form-control {
+  background-color: var(--main-bg) !important;
+  filter: brightness(95%);
+  border: 1px solid var(--card-border-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* --- 6. About Page Skills Card --- */
+.skills-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border-color);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  height: 100%;
 }

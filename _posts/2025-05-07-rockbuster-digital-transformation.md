@@ -7,6 +7,8 @@ image:
   path: /assets/images/thumbnails/rockbuster-thumbnail.png
   alt: A chart showing regional revenue data for a movie rental company.
 tags: [SQL, PostgreSQL, Tableau, Excel, Business Intelligence, Strategy]
+github_link: https://github.com/fariyaasghar/RockbusterStealthLLC.OnlineLaunchStrategy
+demo_link: https://public.tableau.com/shared/ZWPRKXQ92?:display_count=n&:origin=viz_share_link
 ---
 
 ### The Problem & Objective
@@ -27,7 +29,7 @@ The foundation of this project was directly accessing and manipulating a complex
 ![A screenshot of a complex SQL query using JOINs and CTEs](/assets/images/rockbuster-sql-code.png)
 *Above: An example of the SQL queries used to join customer, rental, and payment tables.*
 
-#### The "Aha!" Moment: Revealing the Dominant Market
+#### The Core Insight: Revealing the Dominant Market
 The most critical strategic question was where to focus the initial launch. I aggregated revenue data by country, revealing a game-changing fact: **Asia was Rockbuster's hidden goldmine**, accounting for nearly 40% of all global revenue. This insight immediately established that an Asia-first launch strategy was the optimal path forward.
 
 <!-- ACTION: Place your bubble chart image in /assets/images/ and name it rockbuster-bubble-chart.png -->

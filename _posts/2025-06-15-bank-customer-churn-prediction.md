@@ -7,6 +7,8 @@ image:
   path: /assets/images/thumbnails/churn-thumbnail.png
   alt: A decision tree diagram for predicting customer churn.
 tags: [Machine Learning, Python, scikit-learn, Predictive Analytics, Excel, Strategy]
+github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
+demo_link: https://nyc-citi-bike-dashboard.streamlit.app/
 ---
 
 ### The Problem & Objective
@@ -26,7 +28,7 @@ My approach was to first understand the data through exploratory analysis in Exc
 #### 1. Exploratory Data Analysis (EDA) in Excel
 I began by using Excel pivot tables to perform an initial exploration of the dataset, which revealed that certain groups—particularly inactive members and those in specific geographic locations—had a higher churn rate. This validated the data's potential for a predictive model.
 
-#### 2. The "Aha!" Moment: Building and Interpreting the Decision Tree
+#### 2. Building and Interpreting the Decision Tree
 The core of the project was to move from "what happened" to "what will happen." I used Python's **scikit-learn** library to develop a **Decision Tree** classification model, chosen specifically for its high interpretability.
 
 **The Core Insight:** The trained model immediately identified the single most powerful predictor of churn: **being an 'Inactive Member'** dramatically increases the likelihood of leaving. The model's logic was clear: for inactive members, other factors like having a high balance and being middle-aged were also significant secondary predictors.

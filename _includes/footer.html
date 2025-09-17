@@ -1,0 +1,14 @@
+<footer class="footer">
+  <div class="d-flex justify-content-center">
+    <p class="copyright">
+      © {{ "now" | date: "%Y" }}
+      {% assign first_social = site.social.platforms | first %}
+      {% if first_social and first_social.url %}
+        <a href="{{ first_social.url }}" target="_blank" rel="noopener">{{ site.social.name }}</a>.
+      {% else %}
+        {{ site.social.name }}.
+      {% endif %}
+    </p>
+  </div>
+</footer>
+

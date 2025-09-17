@@ -4,12 +4,8 @@ icon: fas fa-file-alt
 order: 4
 layout: page
 ---
-## My Resume
-My resume provides a detailed overview of my professional experience, technical skills, and educational background.
-
-<div class="text-center mt-5">
-  <a href="{{ '/assets/pdf/Fariya_Asghar_Resume.pdf' | relative_url }}" class="btn btn-lg btn-primary" role="button" target="_blank">Download Resume (PDF)</a>
-</div>
-
-*(Remember to place your PDF file at `assets/pdf/Fariya_Asghar_Resume.pdf`)*
 Please feel free to download a copy of my resume for your records.
+<div class="text-center mt-5 mb-5">
+  <a href="{{ site.baseurl }}/assets/pdf/Fariya_Asghar_Resume_EN.pdf" class="btn btn-lg btn-primary me-3" role="button" target="_blank">Download Resume (EN)</a>
+  <a href="{{ site.baseurl }}/assets/pdf/Fariya_Asghar_Resume_DE.pdf" class="btn btn-lg btn-secondary" role="button" target="_blank">Download Resume (DE)</a>
+</div>

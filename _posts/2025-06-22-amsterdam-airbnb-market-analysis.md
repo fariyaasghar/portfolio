@@ -7,8 +7,8 @@ image:
   path: /assets/images/thumbnails/airbnb-thumbnail.png
   alt: A map of Amsterdam showing Airbnb **Value Zones++.
 tags: [Python, Tableau, Scikit-learn, GeoPandas, Machine Learning, Strategy]
-demo_link: # <-- ADD YOUR TABLEAU PUBLIC LINK HERE
-github_link: # <-- ADD YOUR GITHUB REPO LINK HERE
+github_link: https://github.com/fariyaasghar/Airbnb-Amsterdam-Market-Analysis
+demo_link: https://public.tableau.com/views/FinalProject_17505974440610/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ---
 
 ### The Problem & Objective

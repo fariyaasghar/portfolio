@@ -10,7 +10,7 @@
 
 - type: tableau
   icon: "fas fa-chart-bar" # A great icon for Tableau
-  url: "https://public.tableau.com/app/profile/your-profile" # <-- EDIT THIS with your Tableau URL
+  url: "https://public.tableau.com/app/profile/fariya.asghar" # <-- EDIT THIS with your Tableau URL
 
 - type: email
   icon: "fas fa-envelope"

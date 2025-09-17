@@ -36,6 +36,14 @@ I developed a custom script to analyze the co-occurrence of countries within the
 ![The final network graph showing distinct, color-coded geopolitical communities](/assets/images/geopolitics_network.png)
 *Above: The final network visualization clearly showing a Central European/WWII bloc (blue), a Soviet/Eastern bloc (yellow), and a Post-Colonial/UK-Legacy bloc (red).*
 
+
+#### 3. Quantifying Influence with Centrality Analysis
+To identify the most influential nations in the network, I used **NetworkX** to calculate key centrality measures. The results consistently identified nations like Russia, Germany, and the UK as the most critical "hubs" and "bridges" in the 20th-century network, quantitatively confirming their pivotal historical roles.
+
+<!-- ACTION: Place your centrality bar charts screenshot in /assets/img/posts/ -->
+![Bar charts showing the top countries by Degree, Closeness, and Betweenness Centrality](/assets/images/geopolitics-centrality.png)
+*Above: Centrality analysis provided a quantitative measure of influence for each nation.*
+
 ---
 
 <!-- This is the "End" of my case study -->
@@ -49,28 +57,3 @@ The final deliverable was an interactive network graph created with **Pyvis**, w
 
 ### Challenges & Lessons Learned
 The greatest challenge was the ambiguity of historical text and the extensive data cleaning required to create a consistent set of entities for analysis. This project was a powerful lesson in the ability of NLP and network analysis to create valuable, structured insights from a source as seemingly chaotic as a historical article. It demonstrates a creative approach to problem-solving when a clean, pre-made dataset is not available.
-
-
-
-
-
-x
-
-
-The project involved a full data science pipeline, including programmatic **Web Scraping** from Wikipedia, applying the **spaCy** library for Named Entity Recognition (NER), and developing a custom script to extract co-occurrence relationships. The final network was constructed with **NetworkX** and visualized with **Pyvis**.
-
-### Key Insights & Visualizations
-
-#### 1. Uncovering Geopolitical Blocs with Community Detection
-The most powerful insight came from applying the Leiden algorithm for community detection to the network. The algorithm, without any prior historical knowledge, successfully partitioned the countries into historically coherent blocs, as seen in the visualization below.
-
-![Screenshot of the Community Detection Network Graph](/assets/images/geopolitics_network.png)
-
-#### 2. Identifying the Century's Most Influential Nations
-Centrality analysis provided a quantitative measure of influence. The charts show that nations like Russia, Germany, and France consistently ranked at the top, confirming their pivotal roles in the century's major events.
-
-![Screenshot of the Centrality Bar Charts](/assets/images/geopolitics_centrality_1.png)
-
-### Project Reflection
-
-This project was a fantastic challenge in end-to-end data analysis, starting with no data and ending with a rich, interactive visualization. A key takeaway was the incredible power of network analysis to distill complex, narrative-based information into a structured and quantifiable format.

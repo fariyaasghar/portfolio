@@ -7,6 +7,7 @@ image:
   path: /assets/images/thumbnails/instacart-thumbnail.png
   alt: A chart showing customer purchasing data.
 tags: [Python, Pandas, Matplotlib, Seaborn, Customer Segmentation, Data Wrangling]
+github_link: https://github.com/fariyaasghar/InstacartGroceryBasketAnalysis
 ---
 
 ### The Problem & Objective
@@ -37,7 +38,7 @@ My first analytical step was to identify broad behavioral patterns. The analysis
 ![A side-by-side view of charts showing peak shopping days and top product departments](/assets/images/instacart-peak-times.png)
 *Above: Visualizations highlighting peak shopping times and top-selling product categories.*
 
-#### 3. The "Aha!" Moment: Building the Core Customer Persona
+#### 3. A Pivotal Finding: Building the Core Customer Persona
 The most valuable insight came from connecting behavioral data with demographic data. The analysis revealed a powerful and consistent customer persona: **"The Savvy Parent."** This segment—defined as married, middle-income, with dependents—forms the largest and most loyal customer group. Their shopping behavior is distinct: they prioritize fresh, healthy, and organic options for their families.
 
 By defining this persona, I provided the marketing team with a clear, data-driven target for all future campaigns, promotions, and product recommendations.

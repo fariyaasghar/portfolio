@@ -1,62 +1,67 @@
 ---
-title: About
-icon: fas fa-info-circle
+title: About Me
+icon: fas fa-user-circle
 order: 1
-# This special flag tells the theme to feature this content on the homepage
-pinned: true 
+layout: page
 ---
 
-Welcome! I am a passionate data analyst with a strong foundation in financial analysis and risk assessment, now specializing in transforming complex datasets into actionable business insights. My background has equipped me with the analytical rigor and attention to detail essential for data-driven decision making.
+<!-- This is the custom "hero" section for your introduction -->
+<div class="row align-items-center mb-5">
+  <div class="col-md-3 text-center">
+    <!-- This path uses the robust relative_url filter -->
+    <img src="{{ site.baseurl }}/assets/images/avatar.jpg" class="img-fluid rounded-circle" alt="Fariya Asghar">
+  </div>
+  <div class="col-md-9">
+    <h1 class="mb-3">Hi, I'm Fariya Asghar</h1>
+    <p class="fs-4 text-muted">
+      A Data Analyst with a strong foundation in financial analysis, specializing in transforming complex data into actionable business insights.
+    </p>
+  </div>
+</div>
 
-## My Journey
 
-### From Banking to Data Analytics
+<!-- This is the two-column layout for the rest of your content -->
+<div class="row">
 
-My career began in the banking sector, where I developed expertise in:
+  <!-- Left Column: Your Narrative -->
+  <div class="col-lg-8">
+    <h2>My Journey: From Finance to Data Analytics</h2>
+    <p>
+      With extensive experience in commercial credit analysis and risk management in the banking sector, I bring a unique and valuable perspective to the world of data analytics. My career in finance taught me to think analytically, work with complex datasets, and translate technical findings into business-relevant insights. This background in analyzing financial statements, assessing business performance, and identifying risk patterns has equipped me with the analytical rigor and attention to detail essential for data-driven decision making.
+    </p>
+    <hr class="my-4">
+    <h4>Current Focus & Availability</h4>
+    <p>
+      I am actively building my portfolio with projects that showcase end-to-end data solutions. Based in Frankfurt, Hesse, Germany, I am open to new opportunities in data analytics roles where I can contribute my unique blend of banking experience and growing data science skills.
+    </p>
+  </div>
 
-**Corporate Banking** - Managing sophisticated client portfolios with complex financial structures, coordinating with multiple stakeholders, and presenting strategic recommendations to senior leadership.
+  <!-- Right Column: Your Skills -->
+  <div class="col-lg-4">
+    <div class="skills-card">
+      <h3 class="mb-3">Technical Skills</h3>
+      
+      <strong>Programming & Analysis</strong>
+      <ul>
+        <li>Python (Pandas, NumPy, Scikit-learn)</li>
+        <li>SQL (Data Querying & Management)</li>
+        <li>Statistical Analysis</li>
+      </ul>
 
-**Risk Management** - Working with Internal Risk Rating Models to identify patterns, evaluate risk factors, and support strategic decision-making while ensuring regulatory compliance.
+      <strong>Data Visualization & BI</strong>
+      <ul>
+        <li>Tableau (Interactive Dashboards)</li>
+        <li>Seaborn & Matplotlib</li>
+        <li>Excel (Advanced Modeling)</li>
+      </ul>
+      
+      <strong>Tools & Technologies</strong>
+      <ul>
+        <li>Jupyter Notebooks</li>
+        <li>Git / GitHub</li>
+        <li>Machine Learning Fundamentals</li>
+      </ul>
+    </div>
+  </div>
 
-**Commercial Credit Analysis** - Analyzing financial statements, assessing business performance, and managing client relationships across diverse industry portfolios.
-
-This foundation taught me to think analytically, work with complex datasets, and translate technical findings into business-relevant insights—skills that translate perfectly to data analytics.
-
-### Why Data Analytics?
-
-The transition to data analytics represents a natural evolution of my analytical career. My experience in financial analysis, risk assessment, and pattern recognition has provided me with:
-
-- **Strong analytical foundation** - Ability of interpreting financial data and identifying trends
-- **Business acumen** - Understanding of how data insights drive business decisions
-- **Attention to detail** - Critical for ensuring data accuracy and reliable analysis
-- **Communication skills** - Ability to present complex findings to stakeholders at all levels
-
-## Technical Skills
-
-**Programming & Analysis:**
-- Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
-- SQL (Data querying and database management)
-
-**Data Visualization:**
-- Tableau (Interactive dashboards and storytelling)
-- Excel (Advanced analysis and modeling)
-
-**Tools & Technologies:**
-- Jupyter Notebooks
-- Git/GitHub
-- Statistical Analysis
-- Machine Learning fundamentals
-
-## Current Focus
-
-I'm actively building my portfolio with projects that showcase:
-- Financial data analysis and modeling
-- Interactive dashboard development
-- Predictive analytics and machine learning applications
-- Data-driven business recommendations
-
-## Location & Availability
-
-Based in Frankfurt, Hesse, Germany, I'm open to opportunities in data analytics roles where I can contribute my unique blend ofbanking experience and growing data science skills.
-
----
+</div>

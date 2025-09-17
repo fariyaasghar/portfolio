@@ -7,6 +7,7 @@ image:
   path: /assets/images/thumbnails/influenza-thumbnail.png
   alt: A Tableau dashboard showing public health data.
 tags: [Tableau, Excel, Data Integration, Statistical Analysis, Business Intelligence]
+demo_link: https://public.tableau.com/shared/F6KRD2BBB?:display_count=n&:origin=viz_share_link
 ---
 
 ### The Problem & Objective

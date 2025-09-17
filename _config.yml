@@ -1,9 +1,9 @@
 # --- Basic Site Settings ---
 title: Fariya Asghar
 tagline: Data Analyst | Transforming Data into Actionable Insights
-description: A professional portfolio showcasing data analysis projects.
+description: A professional portfolio showcasing data analysis and visualization projects.
 url: "https://fariyaasghar.github.io"
-baseurl: "/portfolio"
+# baseurl: "/portfolio" # Correctly commented out for local development
 
 # --- Theme ---
 theme: jekyll-theme-chirpy
@@ -13,35 +13,20 @@ avatar: /assets/images/avatar.jpg
 social:
   name: Fariya Asghar
   email: fasghar91@gmail.com
-  # The 'platforms' key is what Chirpy uses to build the icons at the bottom of the sidebar.
   platforms:
     - name: github
-      icon: "fab fa-github"
       url: "https://github.com/fariyaasghar"
     - name: linkedin
-      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/fariya-asghar"
-    - name: tableau
-      icon: "fas fa-chart-bar" # A great, generic icon for Tableau
-      url: "https://public.tableau.com/app/profile/fariya.asghar" # <-- EDIT THIS with your Tableau URL
-    - name: email
-      icon: "fas fa-envelope"
-      url: "mailto:fasghar91@gmail.com"
 
-# --- CRITICAL SECTION: Collections ---
-# This tells Jekyll to look for files in the _tabs folder and build the sidebar.
+# --- CRITICAL SECTION: Collections & Defaults ---
+# This tells Jekyll to build your pages from the _tabs folder.
 collections:
   tabs:
     output: true
     sort_by: order
 
-# --- Sass/SCSS Settings ---
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# --- Default settings ---
-# This tells Jekyll how to handle your case studies (_posts) and your pages (_tabs)
+# This tells Jekyll how to handle your case studies (_posts) and your pages (_tabs).
 defaults:
   - scope:
       path: ""
@@ -55,4 +40,4 @@ defaults:
       type: tabs
     values:
       layout: page
-      permalink: /:title/
+      permalink: /:title/ # This creates clean URLs like /projects/

@@ -7,6 +7,8 @@ image:
   path: /assets/images/thumbnails/gameco-thumbnail.png
   alt: A chart showing global video game sales data.
 tags: [Excel, Business Intelligence, Data Visualization, Market Analysis]
+github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
+demo_link: https://nyc-citi-bike-dashboard.streamlit.app/
 ---
 
 ### The Problem & Objective
@@ -33,7 +35,7 @@ The initial dataset was comprehensive but contained inconsistencies. My first st
 With a clean dataset, I computed summary statistics and found that sales distributions were heavily right-skewed. This indicated that the market was hit-driven, with a small number of blockbuster games accounting for a majority of the revenue, highlighting a potential volatility risk.
 
 #### 3. Uncovering the Core Insight: A Shifting Global Market
-**The "Aha!" Moment:** The central assumption of North American dominance was fundamentally disproved. My analysis revealed a dramatic and unexpected shift: while North America was once the dominant market, its share had been in a steady decline, while Europe's market share had consistently grown, surpassing North America as the top market in 2016.
+The central assumption of North American dominance was fundamentally disproved. My analysis revealed a dramatic and unexpected shift: while North America was once the dominant market, its share had been in a steady decline, while Europe's market share had consistently grown, surpassing North America as the top market in 2016.
 
 <!-- ACTION: Place your line chart image in /assets/images/ and name it gameco-line-chart.png -->
 ![Line chart showing EU sales surpassing NA sales in 2016](/assets/images/gameco-line-chart.png)
