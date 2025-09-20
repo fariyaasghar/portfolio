@@ -3,7 +3,7 @@ title: Fariya Asghar
 tagline: Data Analyst | Transforming Data into Actionable Insights
 description: A professional portfolio showcasing data analysis and visualization projects.
 url: "https://fariyaasghar.github.io"
-baseurl: "/" # Correctly commented out for local development
+baseurl: "/portfolio" # Correctly commented out for local development
 
 # --- Theme ---
 theme: jekyll-theme-chirpy
