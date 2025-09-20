@@ -4,7 +4,7 @@ title: "Case Study: Strategic Analysis of the Amsterdam Airbnb Market"
 date: 2025-06-22
 excerpt: "An end-to-end data science workflow using Python and Tableau to analyze the Amsterdam Airbnb market, from data wrangling to predictive modeling and strategic recommendation."
 image:
-  path: assets/images/thumbnails/airbnb-thumbnail.png
+  path: ./assets/images/thumbnails/airbnb-thumbnail.png
   alt: A map of Amsterdam showing Airbnb **Value Zones++.
 tags: [Python, Tableau, Scikit-learn, GeoPandas, Machine Learning, Strategy]
 github_link: https://github.com/fariyaasghar/Airbnb-Amsterdam-Market-Analysis
@@ -24,8 +24,8 @@ In Amsterdam's dense and competitive Airbnb market, what are the true drivers of
 
 My analysis began by testing a common assumption: that the best, most experienced hosts can command a higher price. The data revealed a surprising and counter-intuitive insight.
 
-<!-- ACTION: Place your "Host Quality vs Price" dashboard screenshot in /assets/images/ and name it airbnb-quality-price.png -->
-![A dashboard showing that high-quality hosts have a lower median price](/assets/images/airbnb-quality-price.png)
+<!-- ACTION: Place your "Host Quality vs Price" dashboard screenshot in /./assets/images/ and name it airbnb-quality-price.png -->
+![A dashboard showing that high-quality hosts have a lower median price](/./assets/images/airbnb-quality-price.png)
 *Above: The data showed that "High-Quality Hosts" have a lower median price, proving that success in this market is likely about offering superior value to drive volume.*
 
 #### Uncovering the True Drivers of Price
@@ -43,16 +43,16 @@ To understand how listings compete, I used an unsupervised machine learning algo
 
 The most powerful insight came from analyzing the performance of these three segments over time. It revealed a classic business trade-off between sales volume and profit margin.
 
-<!-- ACTION: Place your "Price vs. Volume" dashboard screenshot in /assets/images/ and name it airbnb-price-volume.png -->
-![A dashboard showing the price vs. volume trade-off between market segments](/assets/images/airbnb-price-volume.png)
+<!-- ACTION: Place your "Price vs. Volume" dashboard screenshot in /./assets/images/ and name it airbnb-price-volume.png -->
+![A dashboard showing the price vs. volume trade-off between market segments](/./assets/images/airbnb-price-volume.png)
 *Above: While the "High-Turnover" cluster maintains the highest occupancy, the "Premium" cluster generates the highest average annual revenue, revealing two distinct, successful strategies in the market.*
 
 ### Final Recommendations & Project Links
 
 My final analysis provides a clear strategic framework for any potential investor, delivered in a fully interactive **Tableau Storyboard**.
 
-<!-- ACTION: Place your final "Executive Summary" dashboard screenshot in /assets/images/ -->
-![Screenshot of the final interactive Tableau Storyboard for the Airbnb analysis](/assets/images/airbnb-dashboard.png)
+<!-- ACTION: Place your final "Executive Summary" dashboard screenshot in /./assets/images/ -->
+![Screenshot of the final interactive Tableau Storyboard for the Airbnb analysis](/./assets/images/airbnb-dashboard.png)
 
 #### Key Recommendations:
 A successful investment requires choosing a clear strategy and matching it to the right location and property type.

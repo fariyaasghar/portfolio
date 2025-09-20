@@ -4,7 +4,7 @@ title: "Case Study: Visualizing 20th Century Geopolitical Networks"
 date: 2025-07-22
 excerpt: "A demonstration of advanced data skills, using web scraping and Natural Language Processing (NLP) to analyze unstructured text and build a network visualization of historical country interrelations."
 image:
-  path: assets/images/thumbnails/20th-century-thumbnail.png
+  path: ./assets/images/thumbnails/20th-century-thumbnail.png
   alt: A network graph of country relationships.
 tags: [Python, NLP (spaCy), NetworkX, Pyvis, Web Scraping]
 github_link: https://github.com/fariyaasghar/20th-century
@@ -32,8 +32,8 @@ The project began by programmatically scraping historical text and a master list
 #### 2. Uncovering Geopolitical Blocs
 I developed a custom script to analyze the co-occurrence of countries within the same sentences. This generated a structured "edge list" where each connection's weight was based on the frequency of interaction. When I visualized this network and applied the **Leiden algorithm for community detection**, a powerful insight emerged: **the algorithm, without any prior historical knowledge, successfully partitioned the countries into historically coherent blocs.**
 
-<!-- ACTION: Place your final colored community graph in /assets/images/posts/ -->
-![The final network graph showing distinct, color-coded geopolitical communities](/assets/images/geopolitics_network.png)
+<!-- ACTION: Place your final colored community graph in /./assets/images/posts/ -->
+![The final network graph showing distinct, color-coded geopolitical communities](/./assets/images/geopolitics_network.png)
 *Above: The final network visualization clearly showing a Central European/WWII bloc (blue), a Soviet/Eastern bloc (yellow), and a Post-Colonial/UK-Legacy bloc (red).*
 
 
@@ -41,7 +41,7 @@ I developed a custom script to analyze the co-occurrence of countries within the
 To identify the most influential nations in the network, I used **NetworkX** to calculate key centrality measures. The results consistently identified nations like Russia, Germany, and the UK as the most critical "hubs" and "bridges" in the 20th-century network, quantitatively confirming their pivotal historical roles.
 
 <!-- ACTION: Place your centrality bar charts screenshot in /assets/img/posts/ -->
-![Bar charts showing the top countries by Degree, Closeness, and Betweenness Centrality](/assets/images/geopolitics-centrality.png)
+![Bar charts showing the top countries by Degree, Closeness, and Betweenness Centrality](/./assets/images/geopolitics-centrality.png)
 *Above: Centrality analysis provided a quantitative measure of influence for each nation.*
 
 ---

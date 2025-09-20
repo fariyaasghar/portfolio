@@ -4,7 +4,7 @@ title: "Case Study: Predicting Bank Customer Churn with Machine Learning"
 date: 2025-06-15
 excerpt: "Developed a predictive model using Python and scikit-learn to proactively identify high-risk bank customers and guide targeted retention strategies."
 image:
-  path: assets/images/thumbnails/churn-thumbnail.png
+  path: ./assets/images/thumbnails/churn-thumbnail.png
   alt: A decision tree diagram for predicting customer churn.
 tags: [Machine Learning, Python, scikit-learn, Predictive Analytics, Excel, Strategy]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
@@ -33,8 +33,8 @@ The core of the project was to move from "what happened" to "what will happen." 
 
 **The Core Insight:** The trained model immediately identified the single most powerful predictor of churn: **being an 'Inactive Member'** dramatically increases the likelihood of leaving. The model's logic was clear: for inactive members, other factors like having a high balance and being middle-aged were also significant secondary predictors.
 
-<!-- ACTION: Place your Decision Tree image in /assets/images/ and name it churn-decision-tree.png -->
-![The final Decision Tree model generated in Python](/assets/images/churn-decision-tree.png)
+<!-- ACTION: Place your Decision Tree image in /./assets/images/ and name it churn-decision-tree.png -->
+![The final Decision Tree model generated in Python](/./assets/images/churn-decision-tree.png)
 *Above: The interpretable Decision Tree model, which clearly shows the key drivers of customer churn.*
 
 #### 3. Synthesizing the Findings: The 'At-Risk' Customer Persona
@@ -47,8 +47,8 @@ A model's predictions are only useful if they can be translated into business ac
 
 **The Counter-Intuitive Learning:** The greatest financial risk came not from new customers, but from established, high-balance members who had become disengaged.
 
-<!-- ACTION: Place your "At-Risk" persona graphic in /assets/images/ -->
-![A graphic summarizing the key attributes of the 'At-Risk' Customer Persona](/assets/images/churn-persona.png)
+<!-- ACTION: Place your "At-Risk" persona graphic in /./assets/images/ -->
+![A graphic summarizing the key attributes of the 'At-Risk' Customer Persona](/./assets/images/churn-persona.png)
 *Above: The final persona, combining demographic and behavioral data to create a clear target for retention efforts.*
 
 ---

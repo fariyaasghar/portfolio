@@ -4,7 +4,7 @@ title: "Case Study: Rockbuster Movie Rentals' Digital Transformation"
 date: 2025-05-07
 excerpt: "An SQL-driven analysis of a large PostgreSQL database to guide a traditional company's pivot to an online video rental service."
 image:
-  path: assets/images/thumbnails/rockbuster-thumbnail.png
+  path: ./assets/images/thumbnails/rockbuster-thumbnail.png
   alt: A chart showing regional revenue data for a movie rental company.
 tags: [SQL, PostgreSQL, Tableau, Excel, Business Intelligence, Strategy]
 github_link: https://github.com/fariyaasghar/RockbusterStealthLLC.OnlineLaunchStrategy
@@ -25,15 +25,15 @@ Rockbuster, a traditional movie rental company, faced extinction from streaming 
 
 The foundation of this project was directly accessing and manipulating a complex relational database using **advanced SQL queries** to synthesize information from multiple tables and generate key business metrics.
 
-<!-- ACTION: Place your SQL code screenshot in /assets/images/ and name it rockbuster-sql-code.png -->
-![A screenshot of a complex SQL query using JOINs and CTEs](/assets/images/rockbuster-sql-code.png)
+<!-- ACTION: Place your SQL code screenshot in /./assets/images/ and name it rockbuster-sql-code.png -->
+![A screenshot of a complex SQL query using JOINs and CTEs](/./assets/images/rockbuster-sql-code.png)
 *Above: An example of the SQL queries used to join customer, rental, and payment tables.*
 
 #### The Core Insight: Revealing the Dominant Market
 The most critical strategic question was where to focus the initial launch. I aggregated revenue data by country, revealing a game-changing fact: **Asia was Rockbuster's hidden goldmine**, accounting for nearly 40% of all global revenue. This insight immediately established that an Asia-first launch strategy was the optimal path forward.
 
-<!-- ACTION: Place your bubble chart image in /assets/images/ and name it rockbuster-bubble-chart.png -->
-![A bubble chart showing regional revenue, with Asia as the largest bubble](/assets/images/rockbuster-bubble-chart.png)
+<!-- ACTION: Place your bubble chart image in /./assets/images/ and name it rockbuster-bubble-chart.png -->
+![A bubble chart showing regional revenue, with Asia as the largest bubble](/./assets/images/rockbuster-bubble-chart.png)
 *Above: The Regional Revenue Analysis clearly showing Asia's market dominance.*
 
 #### Drilling Deeper: Content and Pricing Opportunities
@@ -47,8 +47,8 @@ Knowing where to launch, I then focused on what to offer.
 
 My analysis culminated in a clear, actionable, and data-driven 3-point strategy, which I delivered as an executive-level presentation supported by an interactive **Tableau dashboard**.
 
-<!-- ACTION: Place your final Tableau dashboard screenshot in /assets/images/ -->
-![Screenshot of the final interactive Tableau dashboard for Rockbuster](/assets/images/rockbuster-dashboard.png)
+<!-- ACTION: Place your final Tableau dashboard screenshot in /./assets/images/ -->
+![Screenshot of the final interactive Tableau dashboard for Rockbuster](/./assets/images/rockbuster-dashboard.png)
 
 #### Key Recommendations:
 1.  **Prioritize Asia-Focused Growth:** Launch first in key Asian markets like India and China, localizing the platform with regional payment options and content.

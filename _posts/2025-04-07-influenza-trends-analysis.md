@@ -4,7 +4,7 @@ title: "Case Study: Public Health Analysis of Influenza Trends"
 date: 2025-04-07
 excerpt: "An analysis of CDC and Census data to build a data-driven blueprint for seasonal influenza preparedness, culminating in an interactive Tableau dashboard."
 image:
-  path: assets/images/thumbnails/influenza-thumbnail.png
+  path: ./assets/images/thumbnails/influenza-thumbnail.png
   alt: A Tableau dashboard showing public health data.
 tags: [Tableau, Excel, Data Integration, Statistical Analysis, Business Intelligence]
 demo_link: https://public.tableau.com/shared/F6KRD2BBB?:display_count=n&:origin=viz_share_link
@@ -30,8 +30,8 @@ I built a robust data pipeline, sourcing and blending three distinct datasets fr
 #### 2. Hypothesis Testing: Confirming the Greatest Risk Factor
 **The "Aha!" Moment:** To test my hypothesis that age is the primary driver of flu-related mortality, I performed an **independent t-test**. The test yielded a **p-value of < 0.001**, providing statistically significant evidence that the elderly (65+) are disproportionately at risk. This confirmed they should be the top priority for any public health intervention.
 
-<!-- ACTION: Place your bar chart image in /assets/images/ and name it influenza-age-chart.png -->
-![Bar chart showing the higher mortality rate for the 65+ age group](/assets/images/influenza-age-chart.png)
+<!-- ACTION: Place your bar chart image in /./assets/images/ and name it influenza-age-chart.png -->
+![Bar chart showing the higher mortality rate for the 65+ age group](/./assets/images/influenza-age-chart.png)
 *Above: The mortality rate for seniors was statistically significantly higher than for other age groups.*
 
 #### 3. Mapping the Hotspots: Visualizing Seasonal and Geographic Peaks
@@ -39,8 +39,8 @@ With the "who" identified, I used **Tableau** to visualize the "when" and "where
 - **Seasonal Peaks:** A time-series chart revealed a clear and predictable surge in mortality every year, consistently peaking between **January and April**.
 - **Geographic Disparities:** A geographic heat map highlighted that states like **California, Texas, and Florida** consistently showed the highest total mortality, making them priority regions.
 
-<!-- ACTION: Place your Tableau map/line chart screenshot in /assets/images/ -->
-![Tableau dashboard showing seasonal peaks and geographic hotspots for influenza](/assets/images/influenza-map-chart.png)
+<!-- ACTION: Place your Tableau map/line chart screenshot in /./assets/images/ -->
+![Tableau dashboard showing seasonal peaks and geographic hotspots for influenza](/./assets/images/influenza-map-chart.png)
 *Above: The Tableau visualization showing the annual Jan-Apr peak and identifying key hotspot states.*
 
 ---
@@ -49,8 +49,8 @@ With the "who" identified, I used **Tableau** to visualize the "when" and "where
 
 The final deliverable was a fully interactive **Tableau storyboard**. This tool empowers public health officials to explore the data themselves, filter by year or region, and understand the nuances of influenza trends in their specific area.
 
-<!-- ACTION: Place your final Tableau dashboard screenshot in /assets/images/ -->
-![Screenshot of the final interactive Tableau dashboard](/assets/images/influenza-dashboard.png)
+<!-- ACTION: Place your final Tableau dashboard screenshot in /./assets/images/ -->
+![Screenshot of the final interactive Tableau dashboard](/./assets/images/influenza-dashboard.png)
 
 #### Key Recommendations:
 Based on the analysis, I proposed a 3-point action plan:

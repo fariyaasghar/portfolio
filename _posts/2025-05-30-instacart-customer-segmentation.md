@@ -4,7 +4,7 @@ title: "Case Study: Instacart Grocery Basket Analysis"
 date: 2025-05-30
 excerpt: "A Python-based analysis of 32 million Instacart orders to uncover customer purchasing patterns and develop a core customer persona for targeted marketing."
 image:
-  path: assets/images/thumbnails/instacart-thumbnail.png
+  path: ./assets/images/thumbnails/instacart-thumbnail.png
   alt: A chart showing customer purchasing data.
 tags: [Python, Pandas, Matplotlib, Seaborn, Customer Segmentation, Data Wrangling]
 github_link: https://github.com/fariyaasghar/InstacartGroceryBasketAnalysis
@@ -27,15 +27,15 @@ The primary challenge was the sheer scale and complexity of the data, which requ
 #### 1. Data Wrangling and Engineering at Scale
 The project involved integrating multiple large datasets. Using the **Python Pandas library**, I performed extensive data wrangling, including merging dataframes, checking for data consistency, handling missing values, and deriving new variables like customer loyalty flags. This foundational work was critical for ensuring the integrity of the subsequent analysis.
 
-<!-- ACTION: Place your "Population Flow" diagram in /assets/images/ and name it instacart-data-flow.png -->
-![A diagram showing the data wrangling and integration process for the Instacart datasets](/assets/images/instacart-data-flow.png)
+<!-- ACTION: Place your "Population Flow" diagram in /./assets/images/ and name it instacart-data-flow.png -->
+![A diagram showing the data wrangling and integration process for the Instacart datasets](/./assets/images/instacart-data-flow.png)
 *Above: The data wrangling pipeline used to merge and clean the multiple source files.*
 
 #### 2. Finding the Pulse: Peak Shopping Times & Top Categories
 My first analytical step was to identify broad behavioral patterns. The analysis revealed undisputed peak shopping periods on **weekends (Saturday/Sunday) and midday (9 AM - 4 PM)**. The top-selling departments were consistently **Produce, Dairy/Eggs, and Snacks**, indicating a high demand for everyday essentials.
 
-<!-- ACTION: Place your dashboard view of the two charts in /assets/images/ -->
-![A side-by-side view of charts showing peak shopping days and top product departments](/assets/images/instacart-peak-times.png)
+<!-- ACTION: Place your dashboard view of the two charts in /./assets/images/ -->
+![A side-by-side view of charts showing peak shopping days and top product departments](/./assets/images/instacart-peak-times.png)
 *Above: Visualizations highlighting peak shopping times and top-selling product categories.*
 
 #### 3. A Pivotal Finding: Building the Core Customer Persona
@@ -43,8 +43,8 @@ The most valuable insight came from connecting behavioral data with demographic 
 
 By defining this persona, I provided the marketing team with a clear, data-driven target for all future campaigns, promotions, and product recommendations.
 
-<!-- ACTION: Place your composite image of the three persona charts in /assets/images/ -->
-![A composite image of charts showing family status, income, and top products for the 'Savvy Parent' persona](/assets/images/instacart-persona-charts.png)
+<!-- ACTION: Place your composite image of the three persona charts in /./assets/images/ -->
+![A composite image of charts showing family status, income, and top products for the 'Savvy Parent' persona](/./assets/images/instacart-persona-charts.png)
 *Above: The key demographic and purchasing charts used to build the "Savvy Parent" persona.*
 
 ---

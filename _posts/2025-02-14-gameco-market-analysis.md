@@ -4,7 +4,7 @@ title: "Case Study: GameCo. Video Game Market Analysis"
 date: 2025-02-14
 excerpt: "A deep-dive analysis of global video game sales to provide data-driven recommendations for GameCo.'s 2017 marketing strategy."
 image:
-  path: assets/images/thumbnails/gameco-thumbnail.png
+  path: ./assets/images/thumbnails/gameco-thumbnail.png
   alt: A chart showing global video game sales data.
 tags: [Excel, Business Intelligence, Data Visualization, Market Analysis]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
@@ -37,19 +37,19 @@ With a clean dataset, I computed summary statistics and found that sales distrib
 #### 3. Uncovering the Core Insight: A Shifting Global Market
 The central assumption of North American dominance was fundamentally disproved. My analysis revealed a dramatic and unexpected shift: while North America was once the dominant market, its share had been in a steady decline, while Europe's market share had consistently grown, surpassing North America as the top market in 2016.
 
-<!-- ACTION: Place your line chart image in /assets/images/ and name it gameco-line-chart.png -->
-![Line chart showing EU sales surpassing NA sales in 2016](/assets/images/gameco-line-chart.png)
+<!-- ACTION: Place your line chart image in /./assets/images/ and name it gameco-line-chart.png -->
+![Line chart showing EU sales surpassing NA sales in 2016](/./assets/images/gameco-line-chart.png)
 
 #### 4. Drilling Deeper: Understanding Regional Preferences
 Knowing *where* the market was shifting was only half the story. I analyzed genre and platform performance within each region, revealing stark differences:
 - **Genre:** NA and EU markets heavily favored Shooter and Sports games, while the Japanese market showed a strong, unique preference for Role-Playing Games (RPGs).
 - **Platform:** Xbox was a powerhouse in North America, while PC gaming had a significantly stronger foothold in Europe.
 
-<!-- ACTION: Place your two charts in /assets/images/ -->
-![Clustered column chart of genre preferences by region](/assets/images/gameco-genre-chart.png)
+<!-- ACTION: Place your two charts in /./assets/images/ -->
+![Clustered column chart of genre preferences by region](/./assets/images/gameco-genre-chart.png)
 *Above: Genre preferences show Japan's unique focus on RPGs.*
 
-![100% stacked column chart of platform market share](/assets/images/gameco-platform-chart.png)
+![100% stacked column chart of platform market share](/./assets/images/gameco-platform-chart.png)
 *Above: Platform market share highlights PC gaming's strength in Europe.*
 
 ---

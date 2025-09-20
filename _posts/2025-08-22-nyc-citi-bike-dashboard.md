@@ -4,7 +4,7 @@ title: "Case Study: NYC Citi Bike Strategic Dashboard"
 date: 2025-08-22
 excerpt: "A data-driven analysis of over 30 million trip records to provide actionable recommendations for fleet management and service expansion."
 image:
-  path: assets/images/thumbnails/citi-bike-thumbnail.png
+  path: ./assets/images/thumbnails/citi-bike-thumbnail.png
   alt: A dashboard showing Citi Bike usage data.
 tags: [Python, Pandas, Plotly, Kepler.gl, Streamlit]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
@@ -24,17 +24,17 @@ This project was executed in a multi-stage data analysis pipeline, moving from r
 #### 1. Station Popularity is Highly Seasonal
 The interactive stacked bar chart clearly shows that while some stations are popular year-round, the vast majority of trips occur during the warmer Summer and Fall months.
 
-![Screenshot of the Stacked Bar Chart](/assets/images/stacked_bar_chart.png)
+![Screenshot of the Stacked Bar Chart](/./assets/images/stacked_bar_chart.png)
 
 #### 2. Ridership is Directly Correlated with Temperature
 The dual-axis line chart provides definitive proof of the seasonal effect, showing an undeniable positive correlation between daily trips and average temperature.
 
-![Screenshot of the Line Chart](/assets/images/line_chart.png)
+![Screenshot of the Line Chart](/./assets/images/line_chart.png)
 
 #### 3. The City's "Bike Highways" are Clearly Identifiable
 By visualizing and filtering the top 1,000 routes, the geospatial map reveals the city's primary transportation corridors, highlighting immense traffic on major crosstown streets and over the bridges connecting to Brooklyn.
 
-![Screenshot of the Kepler Map](/assets/images/kepler_map.png)
+![Screenshot of the Kepler Map](/./assets/images/kepler_map.png)
 
 ### Strategic Recommendations
 
