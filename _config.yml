@@ -13,12 +13,6 @@ avatar: /assets/images/avatar.jpg
 social:
   name: Fariya Asghar
   email: fasghar91@gmail.com
-  platforms:
-    - name: github
-      url: "https://github.com/fariyaasghar"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/fariya-asghar"
-
 # --- CRITICAL SECTION: Collections & Defaults ---
 # This tells Jekyll to build your pages from the _tabs folder.
 collections:

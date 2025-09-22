@@ -137,3 +137,89 @@
   height: auto;
   border-radius: 4px; /* Slightly rounded corners for the image itself */
 }
+/* --- 3. Definitive Custom Button Styles --- */
+
+/* ---- Primary Button (Blue) ---- */
+
+.btn-custom-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border: 1px solid #007bff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-custom-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* ---- Secondary Button (Gray) ---- */
+
+.btn-custom-secondary {
+  background-color: #6c757d;
+  color: #ffffff;
+  border: 1px solid #6c757d;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Make the secondary button subtle in light mode */
+html[data-mode="light"] .btn-custom-secondary {
+  background-color: #f8f9fa;
+  color: #343a40;
+  border-color: #dee2e6;
+}
+
+html[data-mode="light"] .btn-custom-secondary:hover {
+  background-color: #e2e6ea;
+  border-color: #ced4da;
+  color: #343a40;
+}
+
+/* Make the secondary button subtle in dark mode */
+html[data-mode="dark"] .btn-custom-secondary {
+  background-color: #495057;
+  color: #f8f9fa;
+  border-color: #6c757d;
+}
+
+html[data-mode="dark"] .btn-custom-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+  color: #ffffff;
+}
+
+/* ---- Icon-only Buttons (for case study page) --- */
+
+.icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--btn-border-color);
+    border-radius: 8px;
+    color: var(--btn-text-color);
+    background-color: var(--btn-bg);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon-button:hover {
+    background-color: var(--btn-hover-bg);
+    border-color: var(--btn-hover-border-color);
+    color: var(--btn-hover-text-color);
+    transform: translateY(-2px);
+}

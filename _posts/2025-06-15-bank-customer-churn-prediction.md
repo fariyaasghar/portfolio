@@ -8,7 +8,8 @@ image:
   alt: A decision tree diagram for predicting customer churn.
 tags: [Machine Learning, Python, scikit-learn, Predictive Analytics, Excel, Strategy]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
-demo_link: https://nyc-citi-bike-dashboard.streamlit.app/
+presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
+presentation_page: 24 # The slide number
 ---
 
 ### The Problem & Objective

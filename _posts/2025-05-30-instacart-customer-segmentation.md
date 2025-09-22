@@ -8,6 +8,8 @@ image:
   alt: A chart showing customer purchasing data.
 tags: [Python, Pandas, Matplotlib, Seaborn, Customer Segmentation, Data Wrangling]
 github_link: https://github.com/fariyaasghar/InstacartGroceryBasketAnalysis
+presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
+presentation_page: 19 # The slide number
 ---
 
 ### The Problem & Objective

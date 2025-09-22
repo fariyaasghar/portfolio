@@ -32,6 +32,16 @@ layout: page
     <form action="https://formspree.io/f/xvgbdwqr" method="POST" class="contact-form">
       <p class="form-note"><small>Required fields are marked with an asterisk (*)</small></p>
       <div class="form-group">
+        <label for="interest">I'm interested in... <span class="text-danger">*</span></label>
+        <select id="interest" name="interest" class="form-control" required>
+          <option value="" disabled selected>Please select an option</option>
+          <option value="Full-time Opportunity">A Full-time Opportunity</option>
+          <option value="Freelance / Contract Project">A Freelance / Contract Project</option>
+          <option value="Networking / Collaboration">Networking / Collaboration</option>
+          <option value="General Question">A General Question</option>
+        </select>
+      </div>
+      <div class="form-group">
         <label for="name">Your Name: <span class="text-danger">*</span></label>
         <input type="text" id="name" name="name" class="form-control" required>
       </div>

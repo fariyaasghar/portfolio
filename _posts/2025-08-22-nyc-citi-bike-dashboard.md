@@ -9,6 +9,8 @@ image:
 tags: [Python, Pandas, Plotly, Kepler.gl, Streamlit]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
 demo_link: https://nyc-citi-bike-dashboard.streamlit.app/
+presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
+presentation_page: 39 # The slide number
 ---
 
 ### The Challenge

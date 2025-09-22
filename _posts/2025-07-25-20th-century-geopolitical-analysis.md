@@ -8,6 +8,8 @@ image:
   alt: A network graph of country relationships.
 tags: [Python, NLP (spaCy), NetworkX, Pyvis, Web Scraping]
 github_link: https://github.com/fariyaasghar/20th-century
+presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Same PDF
+presentation_page: 34 # Different slide number
 ---
 
 ### Overview

@@ -1,6 +1,6 @@
 # The contact options in the sidebar footer
 
-- type: github
+- type: custom
   icon: "fab fa-github"
   url: "https://github.com/fariyaasghar"
 
@@ -9,9 +9,9 @@
   url: "https://www.linkedin.com/in/fariya-asghar"
 
 - type: tableau
-  icon: "fas fa-chart-bar" # A great icon for Tableau
-  url: "https://public.tableau.com/app/profile/fariya.asghar" # <-- EDIT THIS with your Tableau URL
+  icon: "fas fa-chart-bar"
+  url: "https://public.tableau.com/app/profile/fariya.asghar" 
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  noblank: true

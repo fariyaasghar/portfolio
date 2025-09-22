@@ -9,6 +9,8 @@ image:
 tags: [Python, Tableau, Scikit-learn, GeoPandas, Machine Learning, Strategy]
 github_link: https://github.com/fariyaasghar/Airbnb-Amsterdam-Market-Analysis
 demo_link: https://public.tableau.com/views/FinalProject_17505974440610/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
+presentation_page: 29 # The slide number
 ---
 
 ### The Problem & Objective
