@@ -13,9 +13,42 @@ layout: page
 </div>
 
 <hr>
+<h2 class="mt-5 mb-4 text-center">Certifications & Credentials</h2>
+
+<!-- This is a responsive grid for the certificates -->
+<div class="row text-center justify-content-center g-4">
+
+  <!-- Certificate 1 -->
+  <div class="col-md-4">
+    <div class="cert-card">
+      <a href="/assets/images/Certifications/CareerFoundry_Intro_Data_Analytics.png" target="_blank">
+        <img src="/assets/images/Certifications/CareerFoundry_Intro_Data_Analytics.png" alt="Data Analytics Certificate">
+      </a>
+    </div>
+  </div>
+
+  <!-- Certificate 2 -->
+  <div class="col-md-4">
+    <div class="cert-card">
+      <a href="/assets/images/Certifications/CareerFoundry_Data_Immersion.png" target="_blank">
+        <img src="/assets/images/Certifications/CareerFoundry_Data_Immersion.png" alt="Data Analytics Ceritificate">
+      </a>
+    </div>
+  </div>
+
+  <!-- Certificate 3 (Add more as needed) -->
+  <div class="col-md-4">
+    <div class="cert-card">
+      <a href="/assets/images/Certifications/CareerFoundry_Data_Visualizations_with_Python.png" target="_blank">
+        <img src="/assets/images/Certifications/CareerFoundry_Data_Visualizations_with_Python.png" alt="Python Specialization Certificate">
+    </div>
+  </div>
+</div>
+
+<hr>
 <h2 class="mt-5 mb-4 text-center">Featured Projects</h2>
 <div id="post-list" class="row row-cols-1 row-cols-md-2 g-4">
-  {% for post in site.posts limit: 2 %}
+  {% for post in site.posts limit: 8 %}
     <div class="col">
       {% include post-card.html %}
     </div>

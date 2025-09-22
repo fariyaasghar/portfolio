@@ -73,3 +73,67 @@
 }
 
 /* ... (and any other styles you need) ... */
+/* --- Definitive Custom About Page Styles --- */
+
+/* This targets the two-column row and aligns the columns to the top */
+.about-page .row {
+  align-items: flex-start;
+}
+
+/* This rule removes the extra space ABOVE the first heading in the left column */
+.about-page .col-lg-8 > h2:first-child {
+  margin-top: 0;
+}
+
+/* This rule styles the skills card and aligns its heading */
+.skills-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border-color);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  height: 100%;
+  box-shadow: var(--card-shadow);
+}
+
+.skills-card h3 {
+  margin-top: 0; /* This aligns it with the "My Journey" heading */
+  border-bottom: 1px solid var(--card-border-color);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-card li {
+    margin-bottom: 0.75rem;
+}
+
+/* This rule reduces the vertical space around the horizontal rule */
+#about-page-hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* --- Custom Certificate Section Styles --- */
+
+.cert-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border-color);
+  border-radius: 8px;
+  padding: 0.75rem; /* A small padding around the image */
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--card-shadow);
+}
+
+.cert-card img {
+  width: 100%; /* Make the image fill the card */
+  height: auto;
+  border-radius: 4px; /* Slightly rounded corners for the image itself */
+}

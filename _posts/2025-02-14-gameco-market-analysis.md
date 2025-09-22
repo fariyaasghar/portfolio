@@ -7,8 +7,6 @@ image:
   path: assets/images/thumbnails/gameco-thumbnail.png
   alt: A chart showing global video game sales data.
 tags: [Excel, Business Intelligence, Data Visualization, Market Analysis]
-github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
-demo_link: https://nyc-citi-bike-dashboard.streamlit.app/
 ---
 
 ### The Problem & Objective

@@ -63,5 +63,3 @@ pinned: true
       </ul>
     </div>
   </div>
-
-</div>

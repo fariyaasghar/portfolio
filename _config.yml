@@ -45,5 +45,8 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed
-
-
+# --- Footer Settings ---
+# Disable the theme's default footer to use our custom one.
+footer:
+  show_copyright: false
+  show_theme_info: false
