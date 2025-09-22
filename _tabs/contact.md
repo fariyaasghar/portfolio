@@ -29,7 +29,7 @@ layout: page
   <!-- Right Column -->
   <div class="col-lg-7">
     <h2>Send a Quick Message</h2>
-    <form action="https://formspree.io/f/YOUR_UNIQUE_CODE" method="POST" class="contact-form">
+    <form action="https://formspree.io/f/xvgbdwqr" method="POST" class="contact-form">
       <p class="form-note"><small>Required fields are marked with an asterisk (*)</small></p>
       <div class="form-group">
         <label for="name">Your Name: <span class="text-danger">*</span></label>
