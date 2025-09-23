@@ -57,3 +57,10 @@ jekyll-archives:
   permalinks:
     tag: '/tags/:name/'
     category: '/categories/:name/'
+
+# Web Analytics Settings
+analytics:
+  google:
+    id: G-WYK88ZJJ97  # <-- PASTE YOUR ID HERE
+  goatcounter:
+    id: # fill in your GoatCounter ID
