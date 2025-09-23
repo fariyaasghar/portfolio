@@ -44,3 +44,16 @@ sass:
 footer:
   show_copyright: false
   show_theme_info: false
+# --- Jekyll Archives Plugin Configuration ---
+# This enables the creation of pages for each tag and category.
+
+jekyll-archives:
+  enabled:
+    - tags
+    - categories
+  layouts:
+    tag: tag      # Use the 'tag.html' layout for tag pages
+    category: category # Use the 'category.html' layout for category pages
+  permalinks:
+    tag: '/tags/:name/'
+    category: '/categories/:name/'

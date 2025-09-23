@@ -6,7 +6,8 @@ excerpt: "A deep-dive analysis of global video game sales to provide data-driven
 image:
   path: assets/images/thumbnails/gameco-thumbnail.png
   alt: A chart showing global video game sales data.
-tags: [Excel, Business Intelligence, Data Visualization, Market Analysis]
+tags: [excel, business-intelligence, data-visualization, market-analysis]
+demo_link: /assets/pdf/Gameco_Project_Presentation.pdf
 presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
 presentation_page: 4 # The slide number
 ---

@@ -6,7 +6,7 @@ excerpt: "An analysis of CDC and Census data to build a data-driven blueprint fo
 image:
   path: assets/images/thumbnails/influenza-thumbnail.png
   alt: A Tableau dashboard showing public health data.
-tags: [Tableau, Excel, Data Integration, Statistical Analysis, Business Intelligence]
+tags: [tableau, excel, data-integration, statistical-analysis, business-intelligence]
 demo_link: https://public.tableau.com/shared/F6KRD2BBB?:display_count=n&:origin=viz_share_link
 presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
 presentation_page: 9 # The slide number

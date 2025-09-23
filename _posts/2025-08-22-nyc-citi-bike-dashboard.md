@@ -6,7 +6,7 @@ excerpt: "A data-driven analysis of over 30 million trip records to provide acti
 image:
   path: assets/images/thumbnails/citi-bike-thumbnail.png
   alt: A dashboard showing Citi Bike usage data.
-tags: [Python, Pandas, Plotly, Kepler.gl, Streamlit]
+tags: [python, pandas, plotly, kepler.gl, streamlit]
 github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
 demo_link: https://nyc-citi-bike-dashboard.streamlit.app/
 presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF

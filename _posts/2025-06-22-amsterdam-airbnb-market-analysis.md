@@ -6,7 +6,7 @@ excerpt: "An end-to-end data science workflow using Python and Tableau to analyz
 image:
   path: assets/images/thumbnails/airbnb-thumbnail.png
   alt: A map of Amsterdam showing Airbnb **Value Zones++.
-tags: [Python, Tableau, Scikit-learn, GeoPandas, Machine Learning, Strategy]
+tags: [python, tableau, scikit-learn, geopandas, machine-learning, strategy]
 github_link: https://github.com/fariyaasghar/Airbnb-Amsterdam-Market-Analysis
 demo_link: https://public.tableau.com/views/FinalProject_17505974440610/Story1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF

@@ -6,7 +6,7 @@ excerpt: "A demonstration of advanced data skills, using web scraping and Natura
 image:
   path: assets/images/thumbnails/20th-century-thumbnail.png
   alt: A network graph of country relationships.
-tags: [Python, NLP (spaCy), NetworkX, Pyvis, Web Scraping]
+tags: [python, nlp(spaCy), networkX, pyvis, web-scraping]
 github_link: https://github.com/fariyaasghar/20th-century
 presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Same PDF
 presentation_page: 34 # Different slide number
