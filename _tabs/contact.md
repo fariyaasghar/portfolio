@@ -35,10 +35,11 @@ layout: page
         <label for="interest">I'm interested in... <span class="text-danger">*</span></label>
         <select id="interest" name="interest" class="form-control" required>
           <option value="" disabled selected>Please select an option</option>
-          <option value="Hiring Me for a Full-Time Role">Hiring Me for a Full-Time Role</option>
-          <option value="Discussing a Freelance/Contract Project">Discussing a Freelance/Contract Project</option>
-          <option value="Collaborating on a Data Project">Collaborating on a Data Project</option>
-          <option value="Just Saying Hello!">Just Saying Hello!</option>
+          <option value="Full-Time Role">Discussing a Full-Time Data Analyst Role</option>
+          <option value="Freelance/Contract">Inquiring about a Freelance/Contract Project</option>
+          <option value="Networking">Requesting a Virtual Coffee Chat (Networking)</option>
+          <option value="Feedback!">Providing Feedback on My Portfolio</option>
+          <option value="Other">Other Inquiry</option>
         </select>
       </div>
       <div class="form-group">

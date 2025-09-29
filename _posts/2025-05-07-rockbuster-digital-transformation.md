@@ -8,7 +8,7 @@ image:
   alt: A chart showing regional revenue data for a movie rental company.
 tags: [sql, postgresql, tableau, excel, business-intelligence, strategy]
 github_link: https://github.com/fariyaasghar/RockbusterStealthLLC.OnlineLaunchStrategy
-demo_link: https://public.tableau.com/shared/ZWPRKXQ92?:display_count=n&:origin=viz_share_link
+demo_link: https://public.tableau.com/shared/NMFJQKW45?:display_count=n&:origin=viz_share_link
 presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
 presentation_page: 14 # The slide number
 ---

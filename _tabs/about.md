@@ -27,7 +27,7 @@ pinned: true
   <div class="col-lg-8">
     <h2>My Journey: From Finance to Data Analytics</h2>
     <p>
-      With extensive experience in commercial credit analysis and risk management in the banking sector, I bring a unique and valuable perspective to the world of data analytics. My career in finance taught me to think analytically, work with complex datasets, and translate technical findings into business-relevant insights. This background in analyzing financial statements, assessing business performance, and identifying risk patterns has equipped me with the analytical rigor and attention to detail essential for data-driven decision making.
+      With extensive experience in credit analysis and risk management in the banking sector, I bring a unique and valuable perspective to the world of data analytics. My career in finance taught me to think analytically, work with complex datasets, and translate technical findings into business-relevant insights. This background in analyzing financial statements, assessing business performance, and identifying risk patterns has equipped me with the analytical rigor and attention to detail essential for data-driven decision making.
     </p>
     <hr class="my-4">
     <h4>Current Focus & Availability</h4>

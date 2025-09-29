@@ -7,7 +7,7 @@ image:
   path: assets/images/thumbnails/gameco-thumbnail.png
   alt: A chart showing global video game sales data.
 tags: [excel, business-intelligence, data-visualization, market-analysis]
-demo_link: /assets/pdf/Gameco_Project_Presentation.pdf
+demo_link: https://1drv.ms/b/c/8aa47c751b1282c1/Eb6gbzjZQHJLrXnpGyMT8igBP8xz3s8bvrQiDNA4dAKDCQ?e=MZDoCE
 presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
 presentation_page: 4 # The slide number
 ---

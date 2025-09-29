@@ -7,7 +7,7 @@ image:
   path: assets/images/thumbnails/churn-thumbnail.png
   alt: A decision tree diagram for predicting customer churn.
 tags: [machine-learning, python, scikit-learn, predictive-analytics, excel, strategy]
-github_link: https://github.com/fariyaasghar/nyc-citi-bike-dashboard
+github_link: https://github.com/fariyaasghar/predicting-bank--customer-churn
 presentation_link: /assets/pdf/Fariya_Asghar_Portfolio_Deck.pdf # Path to the PDF
 presentation_page: 24 # The slide number
 ---
