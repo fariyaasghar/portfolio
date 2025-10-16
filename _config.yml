@@ -12,7 +12,6 @@ theme: jekyll-theme-chirpy
 avatar: /assets/images/avatar.jpg
 social:
   name: Fariya Asghar
-  email: fasghar91@gmail.com
 # --- CRITICAL SECTION: Collections & Defaults ---
 # This tells Jekyll to build your pages from the _tabs folder.
 collections:
